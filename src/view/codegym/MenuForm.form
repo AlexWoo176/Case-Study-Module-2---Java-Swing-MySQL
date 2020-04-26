@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="43" green="9f" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder justification="2" title="T&#x1ed0;I NAY &#x102;N G&#xcc;">
+              <Font PropertyName="font" name="Arial" size="24" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="btnEveryDay" alignment="1" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+              <Component id="btnSpecial" alignment="0" max="32767" attributes="0"/>
+              <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+              <Component id="btnEatClean" alignment="0" max="32767" attributes="0"/>
+              <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="191" max="-2" attributes="0"/>
+                  <Component id="txtLogout" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="217" max="32767" attributes="0"/>
+              </Group>
+              <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Component id="btnEveryDay" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="107" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnSpecial" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="119" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnEatClean" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="130" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txtLogout" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnEveryDay">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="20" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TH&#x1ef0;C &#x110;&#x1a0;N H&#xc0;NG NG&#xc0;Y"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEveryDayActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSpecial">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="20" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TH&#x1ef0;C &#x110;&#x1a0;N &#x110;&#x1eb6;C BI&#x1ec6;T"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEatClean">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="20" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TH&#x1ef0;C &#x110;&#x1a0;N EATCLEAN"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="V&#x1edb;i g&#x1ee3;i &#xfd; th&#x1ef1;c &#x111;&#x1a1;n &#x111;&#x1ee7; d&#x1b0;&#x1edb;i &#x111;&#xe2;y, gia &#x111;&#xec;nh b&#x1ea1;n s&#x1ebd; c&#xf3; nh&#x1eef;ng b&#x1eef;a c&#x1a1;m &#xa;th&#x1ead;t ngon mi&#x1ec7;ngv&#xe0; &#x111;&#x1ee7; dinh d&#x1b0;&#x1ee1;ng, gi&#xfa;p b&#x1ea1;n ti&#x1ebf;t ki&#x1ec7;m t&#x1ed1;i &#x111;a th&#x1edd;i gian &#xa;n&#x1ea5;u n&#x1b0;&#x1edb;ng m&#xe0; kh&#xf4;ng ph&#x1ea3;i v&#x1eaf;t &#xf3;c ngh&#x129; xem b&#x1eef;a nay &#x103;n g&#xec;. &#xa;B&#x1edf;i &#x111;&#xe2;y &#x111;&#x1ec1;u l&#xe0; c&#xe1;c m&#xf3;n &#x103;n h&#xe0;ng ng&#xe0;y d&#x1ec5; l&#xe0;m, nguy&#xea;n li&#x1ec7;u d&#x1ec5; mua,&#xa;nh&#x1b0;ng v&#xf4; c&#xf9;ng ngon mi&#x1ec7;ng, &#x111;&#x1b0;a c&#x1a1;m, c&#xf3; th&#x1ec3; &#x111;&#x1ed5;i m&#x1ed7;i m&#xf3;n ng&#xe0;y."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="&#x1ea8;m th&#x1ef1;c Vi&#x1ec7;t Nam r&#x1ea5;t &#x111;a d&#x1ea1;ng v&#xe0; phong ph&#xfa; nh&#x1edd; &#x1edf; m&#x1ed7;i mi&#x1ec1;n, &#xa;c&#xe1;c m&#xf3;n&#x103;n &#x111;&#x1ec1;u c&#xf3; nh&#x1eef;ng h&#x1b0;&#x1a1;ng v&#x1ecb; v&#xe0; &#x111;&#x1eb7;c tr&#x1b0;ng kh&#xe1;c nhau. &#xa;Ch&#xed;nh s&#x1ef1; phong ph&#xfa;, &#x111;a d&#x1ea1;ng c&#x1ee7;a v&#x103;n h&#xf3;a &#x1ea5;y &#x111;&#xe3; khi&#x1ebf;n &#x1ea9;m th&#x1ef1;c Vi&#x1ec7;t&#xa;&#x111;&#x1b0;&#x1ee3;c r&#x1ea5;t nhi&#x1ec1;u b&#x1ea1;n b&#xe8; b&#xe8; qu&#x1ed1;c t&#x1ebf; khen ng&#x1ee3;i v&#xe0; y&#xea;u th&#xed;ch"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea3">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Ch&#x1ebf; &#x111;&#x1ed9; &#x103;n Eat clean hi&#x1ec3;u n&#xf4;m na l&#xe0; ch&#x1ebf; &#x111;&#x1ed9; &#x201c;&#x103;n s&#x1ea1;ch&#x201d;. &#xa;Eat clean khuy&#x1ebf;n kh&#xed;ch m&#x1ecd;i ng&#x1b0;&#x1edd;i h&#xe3;y &#x103;n th&#x1ee9;c &#x103;n d&#x1b0;&#x1edb;i d&#x1ea1;ng &#xa;nguy&#xea;n th&#x1ee7;y nh&#x1ea5;t c&#x1ee7;a n&#xf3;.&#xa;T&#x1ee9;c l&#xe0; ch&#xfa;ng ta ch&#x1ec9; n&#xea;n &#x103;n nh&#x1eef;ng th&#x1ef1;c ph&#x1ea9;m kh&#xf4;ng qua ch&#x1ebf; bi&#x1ebf;n s&#x1eb5;n,&#xa;kh&#xf4;ng ch&#x1ee9;a (ho&#x1eb7;c &#xed;t) h&#xf3;a ch&#x1ea5;t, kh&#xf4;ng b&#x1ecb; d&#x1b0; th&#x1eeb;a l&#x1b0;&#x1ee3;ng &#x111;&#x1b0;&#x1edd;ng, &#xa;mu&#x1ed1;i v&#xe0; ch&#x1ea5;t b&#xe9;o."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="L&#x1ef1;a ch&#x1ecd;n th&#x1ef1;c &#x111;&#x1a1;n theo nhu c&#x1ea7;u c&#x1ee7;a gia &#x111;&#xec;nh b&#x1ea1;n!!!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="txtLogout">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="LOGOUT"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLogoutActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

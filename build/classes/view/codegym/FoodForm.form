@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar2">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="txtChoice">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder>
+                  <Font PropertyName="font" name="Tahoma" size="14" style="1"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="33" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="File"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="txtBack">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBackActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="txtLogout">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Logout"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLogoutActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="txtExit">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtExitActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="txtTimerDemo">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TimeICT"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar2"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="1" attributes="0">
+          <Component id="tblFood" min="-2" pref="1000" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tblFood" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="tblFood">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="2" green="a5" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="16" style="3"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 1">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="371" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="612" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" pref="477" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-11-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;Nh&#xec;n m&#xe2;m c&#x1a1;m b&#xea;n d&#x1b0;&#x1edb;i, li&#x1ec7;u tinh th&#x1ea7;n &#x103;n &#xa;u&#x1ed1;ng c&#x1ee7;a b&#x1ea1;n &#x111;&#xe3; &#x111;i l&#xea;n ch&#x1b0;a? Ch&#x1eaf;c h&#x1eb3;n b&#x1ea1;n &#xa;c&#x169;ng n&#x1eaf;m r&#xf5; c&#xe1;ch ch&#x1ebf; bi&#x1ebf;n nh&#x1eef;ng m&#xf3;n &#x103;n &#xa;quen thu&#x1ed9;c n&#xe0;y r&#x1ed3;i nh&#x1ec9;?&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;--------------------------------&#xa;1. Canh ngao&#xa;--------------------------------&#xa;2. D&#x1b0;a c&#x1ea3;i mu&#x1ed1;i chua&#xa;--------------------------------&#xa;3. S&#x1b0;&#x1edd;n x&#xe0;o chua ng&#x1ecd;t&#xa;--------------------------------&#xa;4. Th&#x1ecb;t x&#xe0;o ng&#x1ed3;ng t&#x1ecf;i&#xa;--------------------------------&#xa;5. Hoa qu&#x1ea3; tr&#xe1;ng mi&#x1ec7;ng"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 2">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 2"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane2" pref="371" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-12-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;&#x1af;u ti&#xea;n rau trong b&#x1eef;a &#x103;n c&#x1ee7;a gia &#x111;&#xec;nh s&#x1ebd; t&#x1ed1;t &#xa;chos&#x1ee9;c kh&#x1ecf;e c&#x1ee7;a b&#x1ea1;n. V&#xec; v&#x1ead;y kh&#xf4;ng c&#xf3; l&#xed; do g&#xec;&#xa;ch&#xfa;ng ta kh&#xf4;ng tri&#x1ec3;n khai m&#x1ed9;t m&#xe2;m c&#x1a1;m nh&#x1b0;&#xa;th&#x1ebf; n&#xe0;y nh&#x1ec9;:&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;--------------------------------&#xa;1. Canh cua c&#xe0; mu&#x1ed1;i&#xa;--------------------------------&#xa;2. M&#x1b0;&#x1edb;p x&#xe0;o th&#x1ecb;t l&#x1ee3;n&#xa;--------------------------------&#xa;3. Su su lu&#x1ed9;c&#xa;--------------------------------&#xa;4. Th&#x1ecb;t l&#x1ee3;n rang"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 3">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 3"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane3" pref="373" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="610" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel3" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane3" alignment="1" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-14-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;C&#xe1;c m&#xf3;n &#x103;n t&#x1eeb; th&#x1ecb;t l&#x1ee3;n lu&#xf4;n g&#x1ea7;n g&#x169;i v&#x1edb;i ch&#xfa;ng&#xa;ta nh&#x1ea5;t. C&#xf3; r&#x1ea5;t nhi&#x1ec1;u m&#xf3;n &#x103;n ngon t&#x1eeb; th&#x1ecb;t l&#x1ee3;n &#xa;b&#x1ea1;n c&#xf3; th&#x1ec3; tham kh&#x1ea3;o th&#x1ef1;c &#x111;&#x1a1;n d&#x1b0;&#x1edb;i &#x111;&#xe2;y nh&#xe9;.&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;---------------------------&#xa;1. Canh x&#x1b0;&#x1a1;ng&#xa;---------------------------&#xa;2. B&#xed; ng&#xf4; x&#xe0;o t&#x1ecf;i&#xa;---------------------------&#xa;3. Th&#x1ecb;t l&#x1ee3;n lu&#x1ed9;c&#xa;---------------------------&#xa;4. Hoa qu&#x1ea3; tr&#xe1;ng mi&#x1ec7;ng"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 4">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 4"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane4" pref="371" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel4" alignment="1" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane4" alignment="1" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-15-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;B&#x1eef;a c&#x1a1;m d&#xe0;nh cho gia &#x111;&#xec;nh kh&#xf4;ng b&#x1ecb; xem l&#xe0; &#xa;s&#x1a1; s&#xe0;i n&#x1ebf;u b&#x1ea1;n &#xe1;p d&#x1ee5;ng m&#xe2;m c&#x1a1;m nh&#x1b0; g&#x1ee3;i &#xfd; &#xa;d&#x1b0;&#x1edb;i &#x111;&#xe2;y. &#x110;&#xe2;y l&#xe0; th&#x1ef1;c &#x111;&#x1a1;n &#x111;&#x1b0;&#x1ee3;c h&#x1b0;&#x1edf;ng &#x1ee9;ng &#xa;b&#x1edf;i s&#x1ef1; &#x111;&#x1a1;n gi&#x1ea3;n, &#x111;&#x1eb9;p m&#x1eaf;t m&#xe0; v&#x1eab;n &#x111;&#x1ea7;y &#x111;&#x1ee7; &#xa;dinh d&#x1b0;&#x1ee1;ng cho gia &#x111;&#xec;nh b&#x1ea1;n!&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;------------------------&#xa;1. Th&#x1ecb;t ch&#xe2;n gi&#xf2; lu&#x1ed9;c&#xa;------------------------&#xa;2. Canh m&#x1b0;&#x1edb;p&#xa;------------------------&#xa;3. Canh c&#xe1; n&#x1ea5;u chua&#xa;------------------------&#xa;4. &#x110;&#x1ead;u &#x111;&#x169;a x&#xe0;o l&#xf2;ng"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 5">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 5"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane5" pref="372" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" pref="611" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel5" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane5" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-16-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea5">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;Nh&#x1eef;ng ng&#xe0;y cu&#x1ed1;i tu&#x1ea7;n b&#x1ea1;n c&#xf3; th&#x1ec3; l&#xe0;m m&#x1ed9;t &#xa;m&#xe2;m c&#x1a1;m v&#x1edb;i &#x111;a d&#x1ea1;ng m&#xf3;n m&#x1ed9;t ch&#xfa;t &#x111;&#x1ec3; chi&#xea;u&#xa;&#x111;&#xe3;i c&#x1ea3; gia &#x111;&#xec;nh. Nh&#x1eef;ng m&#xf3;n &#x103;n d&#x1b0;&#x1edb;i &#x111;&#xe2;y s&#x1ebd; l&#xe0; &#xa;g&#x1ee3;i &#xfd; hay cho b&#x1ea1;n. Rau qu&#x1ea3; &#x111;&#x1b0;&#x1ee3;c s&#x1eed; d&#x1ee5;ng kh&#xe1;&#xa;nhi&#x1ec1;u &#x111;&#x1ec3; tr&#xe1;nh b&#x1ecb; ng&#xe1;n b&#x1edf;i nh&#x1eef;ng &#x111;&#x1ed3; &#x103;n nhi&#x1ec1;u&#xa;d&#x1ea7;u m&#x1ee1;!&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;------------------------------&#xa;1. T&#xf4;m n&#xf5;n rim m&#x1eaf;m&#xa;------------------------------&#xa;2. Canh chua&#xa;------------------------------&#xa;3. C&#x1ea3;i th&#x1ea3;o lu&#x1ed9;c&#xa;------------------------------&#xa;4. D&#x1b0;a chu&#x1ed9;t g&#xf3;p&#xa;------------------------------&#xa;5. S&#x1b0;&#x1edd;n s&#x1ee5;n rang"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 6">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 6"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane6" pref="375" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" pref="608" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel6" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane6" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-18-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea6">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;Th&#x1ecb;t l&#x1ee3;n v&#xe0; c&#xe1; l&#xe0; nh&#x1eef;ng th&#x1ef1;c ph&#x1ea9;m b&#x1ed5; d&#x1b0;&#x1ee1;ng &#xa;&#x111;&#xe3; qu&#xe1; quen thu&#x1ed9;c trong m&#xe2;m c&#x1a1;m c&#x1ee7;a ng&#x1b0;&#x1edd;i&#xa;Vi&#x1ec7;t. Cho d&#xf9; b&#x1ea1;n &#x1edf; b&#x1ea5;t c&#x1ee9; v&#xf9;ng mi&#x1ec1;n n&#xe0;o, &#xa;m&#xe2;m c&#x1a1;m d&#x1b0;&#x1edb;i &#x111;&#xe2;y &#x111;&#x1ec1;u ph&#xf9; h&#x1ee3;p cho gia &#x111;&#xec;nh &#xa;c&#x1ee7;a b&#x1ea1;n. Rau s&#x1ed1;ng &#x111;i k&#xe8;m v&#x1edb;i canh chua c&#x169;ng&#xa;&#x111;&#x1b0;&#x1ee3;c xem l&#xe0; s&#x1ef1; k&#x1ebf;t h&#x1ee3;p th&#xf4;ng minh gi&#xfa;p cho &#xa;m&#xe2;m c&#x1a1;m th&#xea;m &#x111;&#x1ead;m &#x111;&#xe0; h&#x1b0;&#x1a1;ng v&#x1ecb;!&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;----------------------------&#xa;1. Th&#x1ecb;t ba ch&#x1ec9; chi&#xea;n gi&#xf2;n&#xa;----------------------------&#xa;2. Chanh c&#xe1; n&#x1ea5;u chua&#xa;----------------------------&#xa;3. C&#xe1; r&#xe1;n gi&#xf2;n&#xa;----------------------------&#xa;4. Rau s&#x1ed1;ng &#x103;n k&#xe8;m"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 7">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 7"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane7" pref="374" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" pref="609" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel7" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane7" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-3-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea7">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;M&#x1ed9;t th&#x1ef1;c &#x111;&#x1a1;n ch&#x1ebf; bi&#x1ebf;n nhanh v&#xe0; &#x111;&#x1ee7; dinh &#xa;d&#x1b0;&#x1ee1;ng s&#x1ebd; bao g&#x1ed3;m nh&#x1eef;ng g&#xec; nh&#x1ec9;. &#x110;&#xe2;y l&#xe0; m&#xe2;m &#xa;c&#x1a1;m s&#x1ebd; gi&#xfa;p b&#x1ea1;n kh&#xf4;ng m&#x1ea5;t qu&#xe1; nhi&#x1ec1;u th&#x1edd;i &#xa;gian cho vi&#x1ec7;c b&#x1ebf;p n&#xfa;c m&#xe0; v&#x1eab;n s&#x1ebd; nh&#x1ead;n &#x111;&#x1b0;&#x1ee3;c &#xa;khen t&#x1edb;i t&#x1ea5;p b&#x1edf;i ngon mi&#x1ec7;ng!&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;-------------------------------&#xa;1. &#x110;&#x1ead;u r&#xe1;n ch&#x1ea5;m m&#x1eaf;m t&#xf4;m&#xa;-------------------------------&#xa;2. G&#xe0; rang&#xa;-------------------------------&#xa;3. L&#x1ea1;c rang&#xa;-------------------------------&#xa;4. Rau th&#x1a1;m &#x103;n k&#xe8;m"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel8">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 8">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 8"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane8" pref="375" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" pref="608" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel8" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane8" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-5-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea8">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;Th&#xea;m m&#x1ed9;t g&#x1ee3;i &#xfd; b&#x1eef;a c&#x1a1;m nhanh g&#x1ecd;n &#x111;&#x1a1;n gi&#x1ea3;n&#xa;n&#x1eef;a cho b&#x1ea1;n tr&#x1ed5; t&#xe0;i. Ch&#x1ec9; nh&#xec;n m&#xe2;m c&#x1a1;m th&#xf4;i &#xa;c&#x169;ng &#x111;&#x1ee7; &#x1ee9;a n&#x1b0;&#x1edb;c mi&#x1ebf;ng r&#x1ed3;i. B&#x1ea1;n s&#x1ebd; ch&#x1ec9; m&#x1ea5;t &#xa;kho&#x1ea3;ng 30 ph&#xfa;t &#x111;&#x1ec3; c&#xf3; m&#x1ed9;t b&#x1eef;a c&#x1a1;m gia &#x111;&#xec;nh &#xa;ngon l&#xe0;nh nh&#x1b0; th&#x1ebf; n&#xe0;y. Th&#x1ead;t kh&#xf3; c&#x1b0;&#x1ee1;ng l&#x1ea1;i &#xa;tr&#x1b0;&#x1edb;c s&#x1ef1; th&#x1a1;m ngon c&#x1ee7;a th&#x1ee9;c &#x103;n &#x111;&#xfa;ng kh&#xf4;ng!&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;-----------------------&#xa;1. &#x110;&#x1ead;u r&#xe1;n gi&#xf2;n&#xa;-----------------------&#xa;2. C&#xe1; r&#xf4; r&#xe1;n gi&#xf2;n&#xa;-----------------------&#xa;3. Canh cua c&#xe0; mu&#x1ed1;i&#xa;-----------------------&#xa;4. Rau mu&#x1ed1;ng lu&#x1ed9;c&#xa;-----------------------&#xa;5. L&#xf2;ng l&#x1ee3;n lu&#x1ed9;c"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel9">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 9">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 9"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane9" pref="374" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" pref="609" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel9" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane9" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-6-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea9">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;N&#x1ebf;u gia &#x111;&#xec;nh b&#x1ea1;n c&#xf3; 2-3 ng&#x1b0;&#x1edd;i &#x103;n, b&#x1ea1;n c&#xf3; th&#x1ec3; &#xa;tham kh&#x1ea3;o m&#xe2;m c&#x1a1;m gia &#x111;&#xec;nh d&#x1b0;&#x1edb;i &#x111;&#xe2;y. &#xa;Kh&#xf4;ng c&#xf3; m&#xf3;n &#x103;n c&#xf3; qu&#xe1; nhi&#x1ec1;u d&#x1ea7;u m&#x1ee1; m&#xe0; &#xa;v&#x1eab;n &#x111;&#x1ea3;m b&#x1ea3;o ch&#x1ea5;t dinh d&#x1b0;&#x1ee1;ng cho c&#x1ea3; gia &#x111;&#xec;nh&#xa;b&#x1ea1;n. C&#xe1;c m&#xf3;n &#x103;n trong m&#xe2;m c&#x1a1;m n&#xe0;y thi&#xea;n &#xa;v&#x1ec1; &#x111;&#x1ed3; h&#x1ea3;i s&#x1ea3;n v&#x1edb;i:&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;------------------------&#xa;1. C&#xe1; kho t&#x1ed9;&#xa;------------------------&#xa;2. &#x110;&#x1ead;u &#x111;&#x169;a lu&#x1ed9;c&#xa;------------------------&#xa;3. Ch&#x1ea3; c&#xe1; s&#x1ed1;t c&#xe0; chua&#xa;------------------------&#xa;4. C&#xe0; mu&#x1ed1;i"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel10">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 10">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 10"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane10" pref="374" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" pref="609" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel10" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane10" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-8-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane10">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea10">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;Th&#x1eed; th&#x1ef1;c hi&#x1ec7;n m&#x1ed9;t m&#xe2;m c&#x1a1;m trong v&#xf2;ng 30 &#xa;ph&#xfa;t xem n&#xe0;o. &#x110;&#xe2;y l&#xe0; m&#xe2;m c&#x1a1;m &#x1b0;u ti&#xea;n rau &#xa;xanh n&#xea;n &#x103;n thanh m&#xe1;t, nh&#x1eb9; nh&#xe0;nh, &#x111;&#x1b0;a c&#x1a1;m.&#xa;B&#x1ea1;n s&#x1ebd; kh&#xf4;ng ph&#x1ea3;i lo ng&#xe1;n ng&#x1ea5;y v&#x1edb;i nh&#x1eef;ng &#xa;m&#xf3;n &#x103;n ng&#x1ead;p trong d&#x1ea7;u m&#x1ee1;. &#xa;M&#xe2;m c&#x1a1;m g&#x1ed3;m nh&#x1eef;ng m&#xf3;n!&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;--------------------------&#xa;1. D&#x1b0;a c&#x1ea3;i mu&#x1ed1;i chua&#xa;--------------------------&#xa;2. Canh m&#x1b0;&#x1edb;p l&#xf2;ng g&#xe0;&#xa;--------------------------&#xa;3. Th&#x1ecb;t ba ch&#x1ec9; kho t&#xe0;u&#xa;--------------------------&#xa;4. L&#x1ea1;c rang mu&#x1ed1;i&#xa;--------------------------&#xa;5. Rau mu&#x1ed1;ng lu&#x1ed9;c"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel11">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#x1ef1;c &#x111;&#x1a1;n 11">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#x1ef1;c &#x111;&#x1a1;n 11"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane11" pref="374" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" pref="609" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel11" pref="477" max="32767" attributes="0"/>
+                  <Component id="jScrollPane11" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Images/thuc-don-bua-com-gia-dinh-9-600x400.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane11">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea11">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="18" style="3"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="fa" green="42" red="37" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;M&#x1ed9;t m&#xe2;m c&#x1a1;m truy&#x1ec1;n th&#x1ed1;ng lu&#xf4;n khi&#x1ebf;n cho &#xa;m&#x1ecd;i ng&#x1b0;&#x1edd;i n&#x1ee9;c n&#x1edf; khen ng&#x1ee3;i. Kh&#xf4;ng c&#x1ea7;n nhi&#x1ec1;u&#xa;m&#xf3;n &#x103;n c&#x1ea7;u k&#xec;, m&#x1ecd;i ng&#x1b0;&#x1edd;i v&#x1eab;n ph&#x1ea3;i tr&#x1ea7;m tr&#x1ed3; &#xa;tr&#x1b0;&#x1edb;c t&#xe0;i n&#x1ea5;u &#x103;n c&#x1ee7;a b&#x1ea1;n. D&#xf9; b&#x1ea1;n c&#xf3; v&#x1ee5;ng &#x111;&#x1ebf;n&#xa;&#x111;&#xe2;u th&#xec; nh&#x1eef;ng m&#xf3;n &#x103;n d&#x1b0;&#x1edb;i &#x111;&#xe2;y c&#x169;ng &#x111;&#x1b0;&#x1ee3;c &#xa;th&#x1ef1;c hi&#x1ec7;n d&#x1ec5; d&#xe0;ng:&#xa;&#xa;C&#xe1;c m&#xf3;n ch&#xed;nh:&#xa;-------------------------&#xa;1. Rau b&#xed; lu&#x1ed9;c&#xa;-------------------------&#xa;2. S&#x1b0;&#x1edd;n x&#xe0;o d&#x1ee9;a&#xa;-------------------------&#xa;3. Canh b&#x1ea7;u n&#x1ea5;u ngao&#xa;-------------------------&#xa;4. &#x110;&#x1ead;u r&#xe1;n&#xa;-------------------------&#xa;C&#xe0; mu&#x1ed1;i chua ng&#x1ecd;t"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
